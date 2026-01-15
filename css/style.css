@@ -135,3 +135,44 @@ a {
     font-size: 24px;
     padding-right: 20px;
 }
+
+.cta {
+    padding: 120px 15%;
+}
+
+.cta-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 25px;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cta-banner button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    width: 140px;
+    height: 40px;
+    align-self: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cta p:first-child {
+    font-size: 23px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
